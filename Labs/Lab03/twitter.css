@@ -1,0 +1,221 @@
+body {
+    background-color: #15202B;
+}
+
+
+
+.left {
+    height: 110%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: -10px;
+    left: -10px;
+    overflow-x: hidden;
+    border-color: #37444D;
+    border-style:dotted;
+    border-width: 1px;
+    padding: 10px 20px;
+}
+
+.main {
+    height: 100%;
+    width: 50%;
+    top: 0px;
+    left: 30px;
+    position:absolute;
+    /* left: 20%; */
+    margin-left: 20%;
+    padding: 0px 10px;
+    border-color: #37444D;
+    border-style:solid;
+    border-width: 0px;
+}
+
+a.menulogo:link, a.menulogo:visited {
+    padding: 15px 0px 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f6f9f9;
+    display:flex;
+}
+
+a.menulogo:hover {
+    border-radius: 20px;
+    /* border-width: 10pt; */
+    border-right-width: 10px;
+    background-color: #2C3640;
+}
+
+a.menu:link, a.menu:visited {
+    padding: 15px 10px 15px 70px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f6f9f9;
+    display:flex;
+}
+
+a.menu:hover {
+    border-radius: 20px;
+    border-width: 100%;
+    background-color: #2C3640;
+    margin: auto;
+}
+
+.navtweet {
+    margin:auto;
+    padding-top: 30px;
+    /* padding-left: -70px; */
+    width: 75%;
+ 
+}
+
+a.tweet:link, a.tweet:visited {
+    padding: 15px 70px 15px 70px;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f6f9f9;
+    border-radius: 50px;
+    background-color: #1C9BEF;
+}
+a.tweet:hover {
+    background-color: #188CD8;
+}
+
+/*
+.leftmenu {
+    padding-top: 20px;
+}
+
+.leftmenu a {
+    text-decoration: none;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    display:flex;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.tweet:link, .tweet:visited {
+    text-decoration: none;
+    text-align: center;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    display:flex;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: ;
+}
+
+.leftmenu a:hover{ 
+    background-color: #2C3640;
+    border-radius: 20pt;
+}
+
+.leftmenu a:visited{
+    color: #F6F9F9;
+}
+
+a.tweet {
+    background-color: #1DA1F2;
+    border-radius: 20pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    text-align: center;
+    al
+}
+
+a.tweet:visited, a.tweet:link {
+    color: #fff;
+    text-align: center;
+    display:flexbox;
+} 
+
+.leftmenu .tweet:link{
+    border-radius: 20pt;
+    text-align: center;
+    color: #fff; 
+    background-color: rgb(29, 161, 242);
+}
+
+.leftmenu .tweet:visited{
+    color: #fff;
+    text-align: center;
+}
+a.tweet:visited{
+    background-color: rgb(29, 161, 242);
+    color: #fff;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a.tweet:hover{
+    background-color: rgb(25, 152, 231);
+    color: #fff;
+}
+*/
+i {
+    margin-left:-40px;
+    background-size:cover;
+    position:absolute;
+    padding: 10px 10px 10px 10px;
+}
+
+.home {
+    background:url("imgs/home.png");
+    background-repeat: no-repeat;
+    background-size:20px;
+}
+.explore {
+    background:url("imgs/explore.png");
+    background-repeat: no-repeat;
+    background-size:20px;
+}
+.notifications {
+    background:url("imgs/notifications.png");
+    background-repeat: no-repeat;
+    background-size:20px;
+}
+.messages {
+    background:url("imgs/messages.png");
+    background-repeat: no-repeat;
+    background-size:20px;
+}
+.bookmarks {
+    background:url("imgs/bookmarks.png");
+    background-repeat: no-repeat;
+    background-size:20px;
+}
+.lists {
+    background:url("imgs/lists.png");
+    background-repeat: no-repeat;
+    background-size:20px;
+}
+.profile {
+    background:url("imgs/profile.png");
+    background-repeat: no-repeat;
+    background-size:20px;
+}
+.more {
+    background:url("imgs/more.png");
+    background-repeat: no-repeat;
+    background-size:20px;
+}
+
+
+
+h5 {
+    font-size: 30pt;
+    color: #fff;
+}
