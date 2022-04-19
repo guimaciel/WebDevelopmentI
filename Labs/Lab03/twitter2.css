@@ -147,6 +147,10 @@ input[type=text] {
     border-radius: 100%;
 }
 
+.imgprivacy {
+    width: 10px;
+}
+
 .acct-mg {
     display: inline-block;
     vertical-align: top;
